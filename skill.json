@@ -1,0 +1,11 @@
+{
+  "name": "genpark-consistent-hash-ring-router-skill",
+  "version": "1.0.1",
+  "description": "Consistent hashing ring with virtual nodes for distributed LLM cache routing and agent state partitioning",
+  "tools": [
+    "add_nodes",
+    "remove_node",
+    "get_node_for_key",
+    "get_distribution_stats"
+  ]
+}
