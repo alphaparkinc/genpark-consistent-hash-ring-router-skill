@@ -1,0 +1,7 @@
+name: genpark-consistent-hash-ring-router-skill
+description: Consistent hashing ring with virtual nodes for distributed LLM cache routing and agent state partitioning
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
